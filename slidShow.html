@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>スライドショー</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/b87480c0af.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div class="title">
+      世界遺産スライドショー
+    </div>
+    <div class="main">
+      <button type="button" onclick="left()">></button>
+      <img src="https://www.waseda.jp/top/assets/uploa ds/2014/03/hidemaro-360x270.jpg">
+      <button type="button" onclick="right()">></button>
+    </div>
+    <div class="control">
+      <button onclick="play()">再生</button>
+      <button onclick="stop()">停止</button>
+      <button onclick="reset()">リセット</button>
+    </div>
+    <script src="js/slidShow.js"></script>
+
+  </body>
+</html>
